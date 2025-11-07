@@ -4,13 +4,18 @@ from rich.console import Console
 """
 𝓬𝓾𝓻𝓼𝓲𝓿𝓮 𝓲𝓼 𝓵𝓲𝓴𝓮 𝓽𝓱𝓲𝓼
 original is like this
+14-21-13-2-5-18-19- -1-18-5- -12-9-11-5- -20-8-9-19
+ⓑⓤⓑⓑⓛⓔ ⓘⓢ ⓛⓘⓚⓔ ⓣⓗⓘⓢ
+ꜱᴛᴀᴍᴘᴇᴅ ɪꜱ ʟɪᴋᴇ ᴛʜɪꜱ
 """
 
 
 dictionary1 = {
     'original': font_styles.original,
     'cursive': font_styles.font_style1,
-    'numbers': font_styles.font_style2
+    'numbers': font_styles.font_style2,
+    'bubble': font_styles.font_style3,
+    'stamped': font_styles.font_style4
 }
 
 def clipboard_monitor(recent_value):
